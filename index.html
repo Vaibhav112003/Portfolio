@@ -1,0 +1,216 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio_Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/700a3cf2ff.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <h1 class="logo">Vaibhav Kumar</h1>
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        
+                    </ul>
+                    
+                    
+                </nav>
+                <div class="header-text">
+                    <p>Data Scientist</p>
+                    <h1>Hi, I am <span>Vaibhav Kumar</span><br>from India</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/photo1.png" alt="Vaibhav Kumar">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am Vaibhav Kumar, a Data Scientist with a passion for uncovering insights from complex datasets. 
+                            With expertise in machine learning, Python, SQL, and data visualization tools, I specialize in 
+                            building models that drive strategic decisions. My experience spans various industries, where 
+                            I've successfully implemented data-driven solutions that optimize business performance. 
+                            I am committed to continuous learning and enjoy sharing knowledge through mentoring and
+                            community contributions. My goal is to leverage AI and data science to make 
+                            a meaningful impact on society.</p>
+
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('Skills' , event)">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience' , event)">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education' , event)">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Languages</span><br>Python, C, C++ , Java, HTML, SQL</li>
+                                <li><span>Frameworks</span><br>TensorFlow, Keras, PyTorch, Scikit-Learn</li>
+                                <li><span>Libraries</span><br>Pandas, Matplotlib , Numpy , Face Recognition</li>
+                                <li><span>Tools and Technologies</span><br>Jupyter Notebook, Google Collab, Git, Vs Code, Google Cloud Platform, IOT, Power Bi , AWS, Cloud Computing, DOcker and Kubernetes</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>IBM SkillBuild</span><br>Data Analyst<br>25 June 2024 - 5 August 2024</li>
+                                <li><span>Smart Bridge</span><br>Business Analyst<br>15 April 2024 - 20 June 2024</li>
+                                <li><span>CyberIndia</span><br>IOT and ML Developer<br>5 November 2023 - 5 January 2024</li>
+                                <li><span>BOLT IOT</span><br>IOT and ML Training<br>1 July 2023 - 5 August 2024</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>College</span><br>Maharaja Agrasen Institute of Technology</li>
+                                <li><span>Branch</span><br>Artificial Intelligence and Machine Learning</li>
+                                <li><span>CGPA</span><br>8.303</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!---------------------------------------------------------- Services------------------------------------------------------------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp-duotone fa-solid fa-file-chart-pie"></i>
+                    <h2>Data Scientist</h2>
+                    <p>I am a results-driven Data Scientist with expertise in Python and SQL, specializing in developing predictive models and extracting actionable insights from complex datasets. Proficient in machine learning frameworks like TensorFlow and PyTorch, I excel at building scalable models and creating data-driven solutions. My experience includes projects in sentiment analysis, predictive modeling, and deep learning. I am passionate about leveraging data science to solve real-world problems and drive innovation.</p>
+                    <a href = '#'>Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-duotone fa-solid fa-chart-mixed"></i>
+                    <h2>Data Analyst</h2>
+                    <p>I am a results-driven Data Analyst skilled in Python and SQL, with a strong focus on transforming data into actionable insights. Proficient in data visualization tools like Power BI , I excel at creating intuitive dashboards and reports. My experience includes projects in sales insights, sentiment analysis, and predictive modeling. I am passionate about leveraging data to drive strategic decisions and continuously improving processes through innovation</p>
+                    <a href = '#'>Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-head-side-gear"></i>
+                    <h2>Ai/ML Developer</h2>
+                    <p>I am an AI/ML Developer with expertise in Python, TensorFlow, and PyTorch, specializing in developing and deploying machine learning models. With a strong foundation in deep learning, neural networks, and natural language processing, I build scalable AI solutions that drive innovation. My experience includes projects in predictive modeling, computer vision, and NLP. I am passionate about leveraging AI/ML technologies to solve complex problems and enhance decision-making processes.
+
+                    </p>
+                    <a href = '#'>Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------- Portfolio---------------------------------------------------------------------------------------- -->
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/1539618355594.jpeg" alt="Crop Production Analysis">
+                    <div class = "layer">
+                        <h3>Crop Yield Analysis</h3>
+                        <p>Crop Yield Analysis involves predicting agricultural output based on various factors like weather, Pesticide , fertilizer, soil quality, and crop management to optimize farming practices.</p>
+                        <a href="https://github.com/Vaibhav112003/Crop_Yield_Analysis">See More</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/CriminalDetection.jpg" alt="CriminalDetection using Face Recognition">
+                    <div class = "layer">
+                        <h3>CriminalDetection Using Face Recognition</h3>
+                        <p>Develop a scalable, retrainable face recognition system for law enforcement, ensuring high accuracy, user-friendly interface, and superior performance in cross-video analytics.</p>
+                        <a href="https://github.com/Vaibhav112003/Criminal_Detection_Using_Facial_Recogniton">See More</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Business.jpg" alt="Crop Production Analysis">
+                    <div class = "layer">
+                        <h3>Data-Driven-Innovations-In-Supply-Chain-Management-With-Qlik-Insights</h3>
+                        <p>Leverage Qlik for data-driven innovations in supply chain management, enhancing efficiency, decision-making, and real-time insights through advanced analytics</p>
+                        <a href="https://github.com/Vaibhav112003/Business-Analytic-Project">See More</a>
+                    </div>
+                </div>
+            </div>
+            <a href = "#" class = "btn">See More</a>
+        </div>  
+    </div>
+    <!-- ----------------------------------------Contact----------------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>vaibhavkumar11.mail@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i> +919717692100</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/vaibhav-kumar-1b552a22a/" target="_blank"><i class = "fab fa-facebook"></i></a>
+                        <a href="https://github.com/Vaibhav112003" target="_blank"><i class = "fab fa-github-square"></i></a>
+                        <a href="https://www.instagram.com/easy_glimpse/" target="_blank"><i class = "fab fa-instagram-square"></i></a>
+                    </div>
+                    <a href = "Vaibhav_Kumar.pdf" download class = "btn btn2">Download CV</a>
+                </div>
+            <div class="contact-right">
+                <form name = "submit-to-google-sheet">
+                    <input type = "text" name = "Name" placeholder="Your Name" required>
+                    <input type = "email" name = "email" placeholder="Your Gmail" required>
+                    <textarea name = "Message" row = "6" placeholder="Your Message"></textarea>
+                    <button type = "submit" class = "btn btn2">Submit</button>
+                </form>
+                <span id = "msg"></span>
+            </div>
+            </div>
+        </div>
+    </div>
+
+        <script>
+            function opentab(tabname, event) {
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        // Remove active-link class from all tab-links
+        for (var i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active-link");
+        }
+
+        // Hide all tab-contents
+        for (var j = 0; j < tabcontents.length; j++) {
+            tabcontents[j].classList.remove("active-tab");
+        }
+
+        // Add active-link class to the clicked tab-link
+        event.currentTarget.classList.add("active-link");
+
+        // Show the corresponding tab-contents
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+        </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwsnwUSmkZiGtb9A_KfGNoMQsd8XbMxZVUZJwqcPFhdpDMao6QQ8_RL_rD-b1rfHoSG/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Succesfully"
+                setTimeout(function(){
+                    msg.innerHTML= " "
+                } , 5000)
+                form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+    </body>
+    </html>
